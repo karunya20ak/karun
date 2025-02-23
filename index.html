@@ -1,0 +1,41 @@
+<html>
+<head>
+        <title>Image Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Center><h1><B><I>NATURAL SCENARY IMAGES </I></B></Center>
+    </h1>
+  <div class="naturalscenary">
+       <div class="natural-scenary-img">
+
+            <img src="img-1.jpg" onclick="myFunction(this)">
+            <img src="img-2.jpg" onclick="myFunction(this)">
+            <img src="img-3.jpg" onclick="myFunction(this)">
+            <img src="img-4.jpg" onclick="myFunction(this)">
+            <img src="img-5.jpg" onclick="myFunction(this)">
+       </div>
+       <div class="img-container">
+            <img id="imagebox" src="img-1.jpg" height="500" width="340">
+       </div>
+        
+  </div> 
+  
+  <script>
+    function myFunction(smallImg)
+    {
+        var fullImg = document.getElementById("imagebox")
+        fullImg.src = smallImg.src;
+    } 
+
+     </script>
+     <p>
+       <h3><center> Natural scenary giving more peace to the persons and happiness.
+           Mountains, Forests, Rivers, valleys, Beaches, Shorelines and Deserts which gives more connectivity among the family members and friends who likes to enjoy.
+            Some peoples like sunraise and sunset they will go and enjoy it and it was a breathtaking sunset at a beach for some peoples stress will be reduced through this.
+             In sea the waves gently crashed against the shore, creating a soothing sound.
+           The whole scene was like a masterpiece.
+       </center></h3></p>
+</body>
+</html>
